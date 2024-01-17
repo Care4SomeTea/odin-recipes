@@ -3,16 +3,10 @@ body {
     margin: 0px;
 }
 
+.recipe-name,
 h3 {
     font-family: Verdana, "Times New Roman", monospace;
     background-color: hsl(22, 30%, 50%);
-    text-align: center;
-}
-
-.recipe-name,
-h1 {
-    font-family: Arial, "Times New Roman", serif;
-    background-color: hsla(22, 30%, 50%, 0.891);
     text-align: center;
 }
 
@@ -26,9 +20,10 @@ h1 {
     text-align: center;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 10px;
 }
 
-img {
+.pic {
     margin: 0px auto;
     display: block;
 }
@@ -80,4 +75,13 @@ div.inline-list {
 
 ul.inline-list {
     display: inline-block;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.recipepic:hover {
+    width: 500px;
+    height: 500px;
 }
